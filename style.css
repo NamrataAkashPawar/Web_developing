@@ -1,0 +1,28 @@
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fa;
+}
+.cart {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 15px;
+  max-height: 400px;
+  overflow-y: auto;
+  width: 250px;
+  z-index: 999;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.card-img-top:hover {
+  transform: scale(1.03);
+  opacity: 0.9;
+}
